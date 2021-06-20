@@ -21,7 +21,7 @@ namespace GUI
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());
         }
-        // Điều chỉnh DPI của máy
+        // Điều chỉnh DPI của máy 
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         private static extern bool SetProcessDPIAware();
     }
